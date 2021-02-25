@@ -1,0 +1,23 @@
+.drumkit {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum {
+  padding: 10px 30px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+@keyframes drum-animation {
+  from {
+    background-color: #ffffff;
+  }
+  to {
+    background-color: #fbf2c0;
+  }
+}
