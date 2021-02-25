@@ -11,6 +11,11 @@
   text-align: center;
   border: 1px solid #ccc;
   cursor: pointer;
+  background-color: white;
+}
+
+body {
+  background-color: black;
 }
 
 @keyframes drum-animation {
